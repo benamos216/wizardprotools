@@ -1,1 +1,1 @@
-web: gunicorn WIZARD.wsgi
+web: gunicorn WIZARD.wsgi:application
